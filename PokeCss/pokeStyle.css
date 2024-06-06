@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: aquamarine;
+    color: white;
+}
+
+.box{
+    padding: 10px;
+}
+
+.allOfIt{
+    background-color: transparent;
+    margin-left: 35%; 
+    margin-top: 5%;  
+    width: 345px;
+    border-radius: 60%;
+}
+
+/* div{
+    border: 1px solid blue;
+} */
+
+.upper{
+    width: 315px;       /* Width of the rectangle */
+    height: 157px;      /* Height of the rectangle (half the width for a semicircle) */
+    background-color: crimson;  /* Background color of the semicircle */
+    border-top-left-radius: 157px;  /* Radius to create the semicircle effect */
+    border-top-right-radius: 157px; /* Radius to create the semicircle effect */
+    border-bottom-left-radius: 0;   /* Ensuring the bottom corners are not rounded */
+    border-bottom-right-radius: 0;  /* Ensuring the bottom corners are not rounded */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    padding-top: 125px;
+}
+
+
+.btnUp{
+    background-color: yellow;
+    width: 80px;       
+    height: 40px;      
+    border-top-left-radius: 40px;  
+    border-top-right-radius: 40px; 
+    border-bottom-left-radius: 0;   
+    border-bottom-right-radius: 0;
+    border-top: 18px solid maroon;
+    border-left: 18px solid maroon;
+    border-right: 18px solid maroon;
+} 
+
+.btnDown{
+    background-color: yellow;
+    width: 83px;       
+    height: 40px;      
+    border-top-left-radius: 0;  
+    border-top-right-radius: 0; 
+    border-bottom-left-radius: 40px;   
+    border-bottom-right-radius: 40px;
+    border-bottom: 20px solid maroon;
+    border-left: 20px solid maroon;
+    border-right: 20px solid maroon;
+}
+
+.mid{
+    background-color: maroon;
+    display: flex;
+    width: 262px;
+    height: 25px;
+    margin-left: 28px;
+    padding-left: 108px;
+}
+
+
+
+
+.yellow{
+    background-color: yellow;
+    width: 42.5px;
+}
+
+.lower{
+    background-color: white;
+    width: 315px;   
+    padding: 0; 
+    height: 157px;      
+    border-top-left-radius: 0;  
+    border-top-right-radius: 0; 
+    border-bottom-left-radius: 157px;   
+    border-bottom-right-radius: 157px;
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
