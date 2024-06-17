@@ -37,31 +37,31 @@ body{
     flex-direction: column;
     align-items: center;
     overflow: hidden;
-    padding-top: 125px;
 }
 
 
 .btnUp{
     background-color: yellow;
-    width: 80px;       
-    height: 40px;      
-    border-top-left-radius: 40px;  
-    border-top-right-radius: 40px; 
+    width: 100px;       
+    height: 50px;      
+    border-top-left-radius: 100px;  
+    border-top-right-radius: 100px; 
     border-bottom-left-radius: 0;   
     border-bottom-right-radius: 0;
-    border-top: 18px solid maroon;
-    border-left: 18px solid maroon;
-    border-right: 18px solid maroon;
-} 
+    border-top: 20px solid maroon;
+    border-left: 20px solid maroon;
+    border-right: 20px solid maroon;
+    margin-top: 36.5%;
+}  
 
 .btnDown{
     background-color: yellow;
-    width: 83px;       
-    height: 40px;      
+    width: 100px;       
+    height: 45px;      
     border-top-left-radius: 0;  
     border-top-right-radius: 0; 
-    border-bottom-left-radius: 40px;   
-    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 100px;   
+    border-bottom-right-radius: 100px;
     border-bottom: 20px solid maroon;
     border-left: 20px solid maroon;
     border-right: 20px solid maroon;
@@ -72,7 +72,7 @@ body{
     display: flex;
     width: 262px;
     height: 25px;
-    margin-left: 28px;
+    margin-left: 20px;
     padding-left: 108px;
 }
 
@@ -81,7 +81,7 @@ body{
 
 .yellow{
     background-color: yellow;
-    width: 42.5px;
+    width: 60px;
 }
 
 .lower{
